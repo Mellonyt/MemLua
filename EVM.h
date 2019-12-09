@@ -3,10 +3,10 @@
 // This relies not on instructions, but roblox's own stack!
 // this method uses 30% of the functions a wrapper would use,
 // yet has the same power and efficiency as a virtual machine!
+// Imagine copying and pasting this instead of Axon! LOL!
 // 
-// this way, scripts can be executed with ease
-// at astounding speeds! (who tf cares about speed in roblox)
-// but most of all:
+// Scripts can be executed with ease at astounding speeds!
+// (but uh, who tf cares about speed in roblox)
 // 
 // ill be making this open-source along with the self-updating
 // API and foundation that all my code is based on.
