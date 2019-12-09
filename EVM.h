@@ -11,7 +11,9 @@
 // ill be making this open-source along with the self-updating
 // API and foundation that all my code is based on.
 // This means that nothing can be patched!
+// 
 // I'll continue to release updates for it unless silly roblox
 // unterminates my OG account, `static`.
 //
+// I'm looking at you, ConvexHero!
 // 
