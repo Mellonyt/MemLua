@@ -11,9 +11,7 @@
 // API and foundation that all my code is based on.
 // This means that nothing can be patched!
 // 
-// Obviously, we know roblox likes to move stuff around
-// (looking at you, ConvexHero!)
-// So I'll continue to release updates for it unless silly roblox
+// obviously I'll continue to release updates for it unless roblox
 // unterminates my OG account, `static`.
 //
 // Cheers!
