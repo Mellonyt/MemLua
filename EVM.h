@@ -6,14 +6,15 @@
 // Imagine copying and pasting this instead of Axon! LOL!
 // 
 // Scripts can be executed with ease at astounding speeds!
-// (but uh, who tf cares about speed in roblox)
 // 
 // ill be making this open-source along with the self-updating
 // API and foundation that all my code is based on.
 // This means that nothing can be patched!
 // 
-// I'll continue to release updates for it unless silly roblox
+// Obviously, we know roblox likes to move stuff around
+// (looking at you, ConvexHero!)
+// So I'll continue to release updates for it unless silly roblox
 // unterminates my OG account, `static`.
 //
-// I'm looking at you, ConvexHero!
+// Cheers!
 // 
