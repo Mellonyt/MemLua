@@ -1,3 +1,13 @@
+Go here for a complete tutorial on running and dumping bytecode:
+
+https://v3rmillion.net/showthread.php?tid=925800
+
+
+
+
+
+// Might also fix up this little tutorial below:
+// 
 // Here is how we find the deserializer, and then hook it to obtain any bytecode from the game!
 // 
 // Steps:
