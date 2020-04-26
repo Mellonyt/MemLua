@@ -1,6 +1,6 @@
 # What is MemLua?
 MemLua is a powerful memory-editing library for Lua, aimed towards DLL applications.
-It may be used for exploiting or for debug/analysis of a project at run-time.
+It may be used for extremely simplistic exploiting or for debug/analysis of any project at run-time.
 
 It was designed to replicate the Lua Engine of Cheat Engine, but being
 that it is built around DLL's, it can offer a much wider range of capablities.
