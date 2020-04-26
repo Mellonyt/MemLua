@@ -18,6 +18,6 @@ Features include:
 
 To use MemLua in your project, all you need are the
 MemLua header files, and the standard Lua API
-(lua version 5.1-5.2 should be good)
+(currently tested for lua version 5.1-5.2)
 
 
