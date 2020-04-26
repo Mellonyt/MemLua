@@ -17,8 +17,8 @@ Features include:
 - File reading/writing
 
 To use MemLua in your project, all you need are the
-MemLua header files, and the standard Lua API
-(currently tested for lua version 5.1-5.2)
+MemLua header files(which there are 4 of them),
+and the standard Lua API (currently tested for version 5.1-5.2)
 
 I would recommend VS 2017 or VS 2019,
 and support for wininet which should already come
