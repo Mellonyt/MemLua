@@ -16,7 +16,8 @@ Features include:
 - HTTP get for utilizing website data
 - File reading/writing
 
-The only thing you need to use MemLua are the MemLua API header files
-and the Lua API itself.
+To use MemLua in your project, all you need are the
+MemLua header files, and the standard Lua API
+(lua version 5.1-5.2 should be good)
 
 
