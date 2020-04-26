@@ -18,6 +18,7 @@ Features include:
 
 To use MemLua in your project, all you need are the
 MemLua header files(which there are 4 of them),
+(NOTE THAT IT HASNT BEEN RELEASED YET =()
 and the standard Lua API (currently tested for version 5.1-5.2)
 
 I would recommend VS 2017 or VS 2019,
