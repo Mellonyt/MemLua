@@ -1,3 +1,7 @@
+-- This Lua executor is based on the MemLua API,
+-- a powerful memory-editing library, written in Lua
+-- designed for easy DLL exploits
+-- 
 local dump_bytecode = false;
 
 print("Scanning");
