@@ -4,8 +4,8 @@ It may be used for a smooth exploiting experience, or debug/analysis of a projec
 
 It was designed to replicate the Lua Engine of Cheat Engine, but being
 that it is built around DLL's, it can offer a much wider range of capablities.
-It can be used for high-quality exploit development,
-making tedious time-consuming tasks as easy as one line.
+It can be used for quality development of exploits,
+making tedious and time-consuming tasks as easy as one line.
 
 Features include:
 - Fast and efficient x86 disassembly/translation
