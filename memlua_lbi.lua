@@ -2,6 +2,10 @@
 -- a powerful memory-editing library, written in Lua
 -- designed for easy DLL exploits
 -- 
+-- Once this script is ran, you will be able to chat scripts
+-- in any game like so: c/print("hello, world")
+-- and it will execute
+-- 
 local dump_bytecode = false;
 local bytecode_output_path = "C:/Users/YOURPCUSERNAME/Desktop/bytecode_example.bin";
 
