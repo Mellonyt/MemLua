@@ -20,7 +20,7 @@ To use MemLua in your project, all you need are the
 MemLua header files, and the standard Lua API
 (currently tested for lua version 5.1-5.2)
 
-Visual Studio 2019  is recommended, and you should
-have Universal CRT runtime package installed, as
-well as any other important headers.
+I would recommend VS 2017 or VS 2019,
+and support for wininet which should already come
+with the default install packages
 
