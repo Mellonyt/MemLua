@@ -3,6 +3,7 @@
 -- designed for easy DLL exploits
 -- 
 local dump_bytecode = false;
+local bytecode_output_path = "C:/Users/YOURPCUSERNAME/Desktop/bytecode_example.bin";
 
 print("Scanning");
 local r_gettop = getFuncPrologue(scanMemory("558BEC8B??088B????2B??????????5DC3")[1]);
@@ -46,8 +47,7 @@ if (dump_bytecode) then
     local len = readInt(data.ebp + 20);
     local str = readString(readInt(data.ebp + 16), len);
     print("bytecode size: " ..toString(len));
-    print(toString(string.len(str)));
-    saveFile("C:/Users/Javan/Desktop/bytecode_example.bin", str);
+    saveFile(bytecode_output_path, str);
     endDetour();
   end)
 
