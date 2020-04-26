@@ -10,8 +10,8 @@ making tedious time-consuming tasks as easy as one line.
 Features include:
 - Fast and efficient x86 disassembly/translation
 - Fast memory scanning
-- Safe, threaded detours that lua handles
-- Automatic memory hooking
+- Safe, threaded detours/"trampolines"
+- Automatic debug hook
 - Automatic calling conventions
 - HTTP get for utilizing website data
 - File reading/writing
