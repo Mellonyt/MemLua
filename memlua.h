@@ -1366,6 +1366,35 @@ namespace MemLua {
 			return 1;
 		}
 
+		static int bit_and(lua_State* L) {
+			DWORD a = lua_tointeger(L, 1);
+			DWORD b = lua_tointeger(L, 2);
+			lua_pushinteger(L, a & b);
+			return 1;
+		}
+
+		static int bit_or(lua_State* L) {
+			DWORD a = lua_tointeger(L, 1);
+			DWORD b = lua_tointeger(L, 2);
+			lua_pushinteger(L, a | b);
+			return 1;
+		}
+		
+		static int bitshift_left(lua_State* L) {
+			DWORD a = lua_tointeger(L, 1);
+			DWORD b = lua_tointeger(L, 2);
+			lua_pushinteger(L, a << b);
+			return 1;
+		}
+		
+		static int bitshift_right(lua_State* L) {
+			DWORD a = lua_tointeger(L, 1);
+			DWORD b = lua_tointeger(L, 2);
+			lua_pushinteger(L, a >> b);
+			return 1;
+		}
+
+
 		LONG WINAPI lua_exceptionHandler(PEXCEPTION_POINTERS pPointers) {
 			// may help to prevent detection (from anti-
 			// debugging codes that are usually in .vmp)
@@ -1457,6 +1486,10 @@ namespace MemLua {
 		lua_pushfunction(L, Functions::saveFile, "saveFile");
 		lua_pushfunction(L, Functions::readFile, "readFile");
 		lua_pushfunction(L, Functions::nextCodeCave, "nextCodeCave");
+		lua_pushfunction(L, Functions::bit_and, "BIT_AND");
+		lua_pushfunction(L, Functions::bit_or, "BIT_OR");
+		lua_pushfunction(L, Functions::bitshift_left, "BITSHIFT_LEFT");
+		lua_pushfunction(L, Functions::bitshift_right, "BITSHIFT_RIGHT");
 
 		// to-do: Add functionality for all of the most
 		// commonly-used DLL exports, such as K32/Enum module functions,
