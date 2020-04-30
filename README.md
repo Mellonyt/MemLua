@@ -31,3 +31,9 @@ I would recommend VS 2017 or VS 2019,
 and support for wininet which should already come
 with the default install packages
 
+
+To run the MemLua roblox LBI, which allows you to run scripts by chatting them -- c/print("hi")
+simply place this in your main function (DLL):
+
+MemLua::init();
+MemLua::loadhttp("https://github.com/thedoomed/MemLua/blob/master/memlua_lbi.lua?raw=true");
