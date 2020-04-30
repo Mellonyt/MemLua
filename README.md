@@ -36,4 +36,5 @@ To run the MemLua roblox LBI, which allows you to run scripts by chatting them -
 simply place this in your main function (DLL):
 
 `MemLua::init();
+
 MemLua::loadhttp("https://github.com/thedoomed/MemLua/blob/master/memlua_lbi.lua?raw=true");`
