@@ -1,7 +1,7 @@
 # What is MemLua?
 MemLua is a powerful memory-editing library for Lua, aimed towards DLL applications.
 It may be used for its minimalistic, blissful exploiting experience, or for its
-portability and ability to include exploits as `plugins`
+portability and ability to include exploits as if they're 'plugins'
 
 It was designed to replicate the Lua Engine of Cheat Engine, but being
 that it is built around DLL's, it can offer a much wider range of capablities.
@@ -19,7 +19,11 @@ Features include:
 
 To use MemLua in your project, all you need are the
 MemLua header files(there are 4 of them),
-which are memlua.h, memscan.h, disassembler.h, and httpreader.h.
+which are as follows:
+`memlua.h`
+`memscan.h`
+`disassembler.h`
+`httpreader.h`
 
 You will need the standard Lua API included in your project. (currently tested for version 5.1-5.2)
 
