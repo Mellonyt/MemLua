@@ -8,6 +8,9 @@ that it is built around DLL's, it can offer a much wider range of capablities.
 It can be used for various applications that call for run-time debugging
 and analysis, making tedious and time-consuming tasks as easy as one line.
 
+I would also like to point out that it's far from done.
+I'll be pushing updates continually to expand its capabilities.
+
 Features include:
 - Fast and efficient x86 disassembly/translation
 - Fast memory scanning
