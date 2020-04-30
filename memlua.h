@@ -1557,6 +1557,14 @@ namespace MemLua {
 		addGlobalInteger(L, "PROCESS_ALL_ACCESS", PROCESS_ALL_ACCESS);
 
 		// Disassembler flags
+		addGlobalInteger(L, "R32_EAX", disassembler::eax);
+		addGlobalInteger(L, "R32_ECX", disassembler::ecx);
+		addGlobalInteger(L, "R32_EDX", disassembler::edx);
+		addGlobalInteger(L, "R32_EBX", disassembler::ebx);
+		addGlobalInteger(L, "R32_ESP", disassembler::esp);
+		addGlobalInteger(L, "R32_EBP", disassembler::ebp);
+		addGlobalInteger(L, "R32_ESI", disassembler::esi);
+		addGlobalInteger(L, "R32_EDI", disassembler::edi);
 		addGlobalInteger(L, "FL_SRC_DEST", Fl_src_dest);
 		addGlobalInteger(L, "FL_SRC_IMM8", Fl_src_imm8);
 		addGlobalInteger(L, "FL_SRC_IMM16", Fl_src_imm16);
