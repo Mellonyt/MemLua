@@ -12,12 +12,12 @@ I would also like to point out that it's far from done.
 I'll be pushing updates continually to expand its capabilities.
 
 Features include:
-- Fast and efficient x86 disassembly/translation
-- Fast memory scanning
-- Safe, threaded detours/"trampolines"
-- Automatic debug hook
-- Automatic calling conventions
-- HTTP get for loading lua files remotely
+- Fast and efficient x86 disassembly (with text translation)
+- Extremely fast memory scanning
+- Incredibly easy debugging, using page exceptions
+- Safe, threaded trampoline detours
+- Calling convention handling
+- HTTP get for loading lua files from a server
 - File reading/writing
 
 To use MemLua in your project, all you need are the
