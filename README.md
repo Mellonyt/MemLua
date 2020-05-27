@@ -42,4 +42,4 @@ simply place this in your main function (DLL):
 MemLua::init();
 MemLua::loadhttp("https://github.com/thedoomed/MemLua/blob/master/memlua_lbi.lua?raw=true");
 ```
-(sorry xD wait till I update bytecode_example.bin)
+(bytecode_example.bin may have to be updated)
