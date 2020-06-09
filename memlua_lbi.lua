@@ -53,7 +53,6 @@ else
   local bytecode_size = string.len(bytecode_str);
   local bytecode = allocPageMemory(bytecode_size);
   
-  print("Writing bytecode...");
   for i=1,bytecode_size do
     writeByte(bytecode + (i - 1), bytecode_str:byte(i, i));
   end
