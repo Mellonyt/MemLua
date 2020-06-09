@@ -1,9 +1,6 @@
 -- Once this script is ran via MemLua, you will be able to chat scripts
 -- in any game like so: c/print("hello, world")
 -- 
-local dump_bytecode = false;
-local bytecode_output_path = "C:/Users/YOURPCUSERNAME/Desktop/bytecode_example.bin";
-
 print("Scanning");
 local r_gettop = getPrologue(scanMemory("558BEC8B??088B????2B??????????5DC3")[1]);
 local r_spawn = getPrologue(scanMemory("83????F20F10????F20F??????FF75")[1]);
@@ -38,15 +35,16 @@ retcheck.patch = function(func)
   return copy;
 end
 
-
+dump_bytecode = false;
 if (dump_bytecode) then
+  -- feel free to mess around with this
   MessageBox("Press OK to hook the deserializer");
   
   createDetour(r_deserialize, function(data)
-    local len = readInt(data.ebp + 20);
-    local str = readString(readInt(data.ebp + 16), len);
+    local len = readInt(data.ebp + 0x14); -- arg4
+    local str = readString(readInt(data.ebp + 0x10), len); -- arg3
     print("bytecode size: " ..toString(len));
-    saveFile(bytecode_output_path, str);
+    saveFile("C:/Users/YOURUSER/Desktop/bytecode_example.bin", str);
     endDetour();
   end)
 
