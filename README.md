@@ -20,26 +20,21 @@ Features include:
 - HTTP get for loading lua files from a server
 - File reading/writing
 
-To use MemLua in your project, all you need are the
-MemLua header files(there are 4 of them),
-which are as follows:
-`memlua.h`
-`memscan.h`
-`disassembler.h`
-`httpreader.h`
+To use MemLua in your project, include the MemLua folder in your project
+and include "memlua.h"
 
 You will need the standard Lua API included in your project. (currently tested for version 5.1-5.2)
+I included my version of Lua if there are any issues. (no copyright intended)
 
-I would recommend VS 2017 or VS 2019,
+I recommend VS 2017 or VS 2019,
 and support for wininet which should already come
-with the default install packages
+with the default packages
 
-
-To run the MemLua roblox LBI, which allows you to run scripts by chatting them -- c/print("hi")
-simply place this in your main function (DLL):
+To run the MemLua LBI, simply place this in whatever your main DLL function is:
 
 ```
 MemLua::init();
 MemLua::loadhttp("https://github.com/thedoomed/MemLua/blob/master/memlua_lbi.lua?raw=true");
 ```
 (bytecode_example.bin may have to be updated)
+Once it loads, you can chat scripts through the chat bar in any ROBLOX game and have it execute.
