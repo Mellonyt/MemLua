@@ -20,7 +20,7 @@ Features include:
 - HTTP get for loading lua files from a server
 - File reading/writing
 
-FOR A COMPLETE DOCUMENTATION ON MEMLUA AND HOW TO SET UP AND USE IT, SEE THE `memlua.pdf` FILE
+FOR A COMPLETE DOCUMENTATION ON MEMLUA AND HOW TO SET UP AND USE, SEE THE `memlua.pdf` FILE
 
 To use MemLua in your project, include the MemLua folder in your project
 and include "memlua.h"
