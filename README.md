@@ -1,3 +1,18 @@
+# How to install
+
+To use MemLua in your project, extract the MemLua zip, and place the extracted
+folder in your project, along with the other C++ files.
+Also, include my Lua copy if you don't already have Lua added, or, replace it
+if your lua isn't working with mine.
+
+It's been currently tested for Lua version 5.1-5.2 (mine may be 5.1.4)
+and now, include "memlua.h" at the top of your project
+
+I also recommend VS 2017 or VS 2019,
+and support for wininet which should already come
+with the default packages
+
+
 # What is MemLua?
 MemLua is a powerful memory-editing library for Lua, aimed towards DLL applications.
 It may be used for its minimalistic, blissful exploiting experience, or for its
@@ -20,17 +35,6 @@ Features include:
 - HTTP get for loading lua files from a server
 - File reading/writing
 
-FOR A COMPLETE DOCUMENTATION ON MEMLUA AND HOW TO SET UP AND USE, SEE THE `memlua.pdf` FILE
-
-To use MemLua in your project, include the MemLua folder in your project
-and include "memlua.h"
-
-You will need the standard Lua API included in your project. (currently tested for version 5.1-5.2)
-I included my version of Lua if there are any issues. (no copyright intended)
-
-I recommend VS 2017 or VS 2019,
-and support for wininet which should already come
-with the default packages
 
 To run the MemLua LBI, simply place this in whatever your main DLL function is:
 
