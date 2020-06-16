@@ -6,6 +6,7 @@ Also, include my Lua copy if you don't already have Lua added, or, replace it
 if your lua isn't working with mine.
 
 It's been currently tested for Lua version 5.1-5.2 (mine may be 5.1.4)
+
 and now, include "memlua.h" at the top of your project
 
 I also recommend VS 2017 or VS 2019,
