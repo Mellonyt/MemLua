@@ -37,7 +37,7 @@ Features include:
 - File reading/writing
 
 
-To run the MemLua LBI, simply place this in whatever your main DLL function is:
+To run the MemLua LBI in the beloved ROBLOX game, simply run this in your DLL:
 
 ```
 MemLua::init();
